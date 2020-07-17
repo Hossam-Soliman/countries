@@ -2,177 +2,176 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #eee;
+}
+
+.App {
+  background-color: #f7fbfb;
+  background-image: url("https://wallpaperaccess.com/thumb/1268183.jpg");
 }
 
 .myForm {
   margin: 100px auto;
   max-width: 500px;
   box-shadow: 2px 2px 2px 2px gray;
-  
 }
 
-.myForm form{
+.myForm form {
   text-align: center;
   padding: 20px;
 }
 
-.myForm button{
+.myForm button {
   width: 440px;
-  background-color: #2366CF;
+  background-color: #2366cf;
   color: #fff;
   padding: 5px;
   margin-top: 10px;
 }
 
-.userData{
+.userData {
   margin: 30px 28px;
   padding: 20px 25px;
   box-shadow: 1px 1px 1px 1px gray;
   max-width: 96%;
-
 }
 
-
-.IndexPage .user-page{
-  background-color:#2366CF;
-  padding: 20px;
-  font-size: larger;
-  color: #fff;
-  margin: 10px 30px 30px 30px;
-  border-radius: 5px;
-}
-
-.table{
-  margin: 30px 40px
-}
-
-.show-page h5{
-  background-color: #2366CF;
-  padding: 20px;
-  font-size: larger;
-  color: #fff;
-  margin: 5px 30px 5px 30px;
-  border-radius: 5px;
-}
-
-.show-page .details{
-  margin: 0px 30px;
-  box-shadow: 1px 1px 1px 1px gray;
-  max-width: 96%;
-  padding: 25px
-}
-
-.show-page table span{
-  font-weight: 550;
-  font-size: medium;
-}
-
-.show-page table td{
-  padding: 10px 30px
-}
-
-.show-page table td{
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-
-}
-
-
-.coronavirus{
+.coronavirus {
   text-align: center;
   padding: 10px;
 }
 
-.coronavirus div{
-  background-color: #2366CF;
+.coronavirus div {
+  background-color: #2366cf;
   padding: 20px;
   width: 220px;
   margin: 20px auto;
   font-size: 20px;
-  color: #fff
+  color: #fff;
 }
 
-.news{
+.news {
   text-align: center;
   margin-bottom: 40px;
   background-color: #ddd;
   padding: 30px;
 }
-.news img{
+
+.news h4 {
+  font-size: 25px;
+}
+.news img {
   width: 300px;
   height: 300px;
   margin-bottom: 20px;
   margin-top: 30px;
 }
-.news a{
+.news a {
   text-decoration: underline;
   font-size: 20px;
   color: red;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.news span{
+.news span {
   float: left;
   font-size: 13px;
 }
-.news-container h4{
+.news-container h4 {
   color: red;
   text-decoration: underline;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
   margin-bottom: 30px;
 }
 
-.show-page ul{
- text-align: center;
-  
+.show-page ul {
+  text-align: center;
 }
 
-.show-page ul li{
-  margin: 20px auto
+.show-page ul li {
+  margin: 20px auto;
 }
 
-.back-bt{
-  background-color:#2366CF;
+.back-bt {
+  background-color: #2366cf;
   padding: 5px;
   color: #fff;
   width: 80px;
   font-weight: 550;
-
-
 }
 
-.show-page ul .news-bt{
-  background-color:#2366CF;
+.show-page ul .news-bt {
+  background-color: #2366cf;
   padding: 10px;
   width: 200px;
   color: black;
-  font-weight: 650;
-  
+  font-weight: 550;
 }
 
-.coronavirus button{
-  background-color:#2366CF;
+.coronavirus button {
+  background-color: #2366cf;
   padding: 10px;
   color: black;
   width: 80px;
   font-weight: 550;
 }
 
-.coronavirus h4{
+.coronavirus h4 {
   color: darkred;
   text-decoration: underline;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.news-container button{
+.news-container button {
   position: fixed;
   top: 0;
-  background-color:#2366CF;
+  background-color: #2366cf;
   padding: 5px;
   color: #fff;
   width: 50px;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  padding: 50px;
+  margin: 10px;
+  background-image: url("https://www.sciencealert.com/images/2020-04/processed/earthmovement_1024.jpg");
+}
+
+.IndexPage {
+  margin-top: 64px;
+  padding-top: 30px;
+}
+
+.country-flag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+  white-space: nowrap;
+}
+
+.material-icons {
+  color: white;
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  .nav-image {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 450px) {
+  .card-content .country-name {
+    font-size: 13px;
+  }
+  .material-icons {
+    font-size: 22px;
+  }
 }
