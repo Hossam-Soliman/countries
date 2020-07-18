@@ -138,7 +138,7 @@ export default function PrimarySearchAppBar() {
     <div>
       <AppBar
         position="static"
-        style={{ position: "fixed", top: 0, backgroundColor: "#1D1D1D" }}
+        style={{ position: "fixed", top: 0, backgroundColor: "black" }}
       >
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap>
